@@ -1,8 +1,10 @@
+import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import SearchBar from "../SearchBar/SearchBar";
 
-import { useContext } from "react";
 import {
   ClassListContext,
   IClassListContextType,
@@ -11,15 +13,16 @@ import { classList as data } from "../../data/classList";
 import styles from "./style.module.css";
 
 function Navbar() {
-  const originalData = data;
   const navigate = useNavigate();
+  const originalData = data;
+
   const { setClassList } = useContext(
     ClassListContext
   ) as IClassListContextType;
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchQ = e.target.value;
-    console.log(searchQ);
+
     if (searchQ.length > 3) {
       const newClassList = originalData.filter((item) =>
         item.name.toLowerCase().includes(searchQ)

@@ -6,10 +6,12 @@ import {
   IClassListContextType,
 } from "../context/ClassListContext";
 
+import "./style.css";
+
 function ColleageList() {
   const { classList } = useContext(ClassListContext) as IClassListContextType;
   return (
-    <div style={styles}>
+    <div className="main-container">
       {classList?.map((item) => (
         <ClassCard
           key={item.id}
@@ -23,10 +25,5 @@ function ColleageList() {
     </div>
   );
 }
-
-const styles: CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(4, 1fr)",
-};
 
 export default ColleageList;
