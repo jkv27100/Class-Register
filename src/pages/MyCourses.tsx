@@ -10,6 +10,7 @@ function MyCourses() {
   const { myClassList } = useContext(
     MyClassListContext
   ) as IMyClassListContextType;
+
   return (
     <div style={styles}>
       {myClassList.length !== 0 ? (
@@ -21,6 +22,7 @@ function MyCourses() {
             description={item.description}
             attendees={item.attendees}
             classImg={item.classImg}
+            isJoined={true}
           />
         ))
       ) : (

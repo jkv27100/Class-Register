@@ -1,8 +1,7 @@
 import React, { useState, createContext } from "react";
 import { IClassList } from "../types";
-import { classList as data } from "../data/classList";
 
-const initialState: IClassList[] = data;
+const initialState: IClassList[] = [];
 
 export interface IClassListContextType {
   classList: IClassList[];

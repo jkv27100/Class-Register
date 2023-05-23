@@ -4,6 +4,7 @@ export interface IClassList {
   description: string;
   attendees: number;
   classImg: string;
+  isJoined?: boolean;
 }
 export interface IClassListProps extends IClassList {
   isJoined: boolean;

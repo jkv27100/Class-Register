@@ -20,6 +20,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 25,
     classImg: ChemistryImg,
+    isJoined: false,
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 15,
     classImg: PhyscicsImg,
+    isJoined: false,
   },
 
   {
@@ -37,6 +39,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 5,
     classImg: MathsImg,
+    isJoined: false,
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 30,
     classImg: DSAImg,
+    isJoined: false,
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 10,
     classImg: MLImg,
+    isJoined: false,
   },
   {
     id: 6,
@@ -61,6 +66,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 45,
     classImg: BiologyImg,
+    isJoined: false,
   },
   {
     id: 7,
@@ -69,6 +75,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 35,
     classImg: StatisticsImg,
+    isJoined: false,
   },
   {
     id: 8,
@@ -77,6 +84,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 18,
     classImg: EnglishImg,
+    isJoined: false,
   },
   {
     id: 9,
@@ -85,6 +93,7 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 27,
     classImg: DataAnalysticsImg,
+    isJoined: false,
   },
   {
     id: 10,
@@ -93,5 +102,6 @@ export const classList: IClassList[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel sapien ac neque fermentum tincidunt",
     attendees: 21,
     classImg: FrontendDevImg,
+    isJoined: false,
   },
 ];
